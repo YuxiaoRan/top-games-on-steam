@@ -6,17 +6,14 @@ A python web-scraping program that finds top games on Steam store and writes the
 ```
 > python top_games_on_steam.py [num_games]
 ```
-  
-**Optional Arguments**
 
-  - **_num_games_** -- positive integer number of games displayed (default 25)
+**_num_games_** -- optional argument, a positive integer number of games displayed (default 25)
   
-**Examples**
-  ```
-  > python top_games_on_steam.py
-  > python top_games_on_steam.py 5
-  > python top_games_on_steam.py 100
-  ```
+```
+> python top_games_on_steam.py
+> python top_games_on_steam.py 5
+> python top_games_on_steam.py 100
+```
   
 ## Output File
 
