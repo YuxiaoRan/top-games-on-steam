@@ -9,7 +9,7 @@ A python web-scraping program that finds top games on Steam store and writes the
   
 **Optional Arguments**
 
-  - *num_games* -- positive integer number of games displayed (default 25)
+  - **_num_games_** -- positive integer number of games displayed (default 25)
   
 **Examples**
   ```
@@ -18,15 +18,16 @@ A python web-scraping program that finds top games on Steam store and writes the
   > python top_games_on_steam.py 100
   ```
   
-## Output
-**Output File**
+## Output File
 
-  *top_games_on_steam.csv* -- a csv file that contains information about top [num_games] games on Steam
+  **_top_games_on_steam.csv_** -- a csv file that contains information about top [num_games] games on Steam
 
-**Output Format**
-
-  *game_name* | *released_date* | *positive_review* | *original_price* | *final_price*
-  
+  | *game_name* | *released_date* | *positive_review* | *original_price* | *final_price* |
+  | --- | --- | --- | --- | --- |
+  | Dota2 | Jul 9 - 2013 | 85% | $0 | $0 |
+  | FINAL FANTASY XIV Online | Feb 18 - 2014 | 81% | $19.99 | $19.99 |
+  | Borderlands: The Handsome Collection | | 92% | $229.48 | $5.90 |
+  | ... | ... | ... | ... | ... |
   
 ## Potential Error Cases
 
