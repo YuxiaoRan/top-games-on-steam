@@ -1,6 +1,13 @@
 # top_games_on_steam
+
+Author: Yuxiao "Sean" Ran
+
+Date: 6/27/2019
+
+
 ## Description
-A python web-scraping program that finds top games on Steam store and writes their infomation to a csv file
+A web-scraping python program that finds top games on Steam store and writes their infomation to a csv file
+
 
 ## Usage
 ```
@@ -15,6 +22,7 @@ A python web-scraping program that finds top games on Steam store and writes the
 > python top_games_on_steam.py 100
 ```
   
+  
 ## Output File
 
   **_top_games_on_steam.csv_** -- a csv file that contains information about top [num_games] games on Steam
@@ -25,6 +33,7 @@ A python web-scraping program that finds top games on Steam store and writes the
   | FINAL FANTASY XIV Online | Feb 18 - 2014 | 81% | $19.99 | $19.99 |
   | Borderlands: The Handsome Collection | | 92% | $229.48 | $5.90 |
   | ... | ... | ... | ... | ... |
+  
   
 ## Potential Error Cases
 
