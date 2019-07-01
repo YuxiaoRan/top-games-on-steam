@@ -1,6 +1,7 @@
 # Find the currently top games on steam.
 # Author: Yuxiao Sean Ran
 # Date: 6/27/2019
+# Last Update: 7/1/2019
 
 # import packages
 from urllib.request import urlopen as uReq
@@ -81,6 +82,8 @@ for i in range(1, num_pages + 1):
 
         # name
         game_name = game.findAll("span", {"class": "title"})[0].text
+        if "," in game_name:
+            game_name = "\"" + game_name + "\""
 
         # released date
         released_list = game.findAll("div", {"class": "col search_released responsive_secondrow"})
